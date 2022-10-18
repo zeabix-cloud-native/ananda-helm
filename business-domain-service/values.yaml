@@ -81,4 +81,4 @@ tolerations: []
 
 affinity: {}
 appEnv:
-  endPoint: "http://localhost:8080"
+  endPoint: "https://ananda-apim.azure-api.net/mock2"
