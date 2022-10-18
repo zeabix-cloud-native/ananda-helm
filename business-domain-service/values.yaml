@@ -81,5 +81,5 @@ tolerations: []
 
 affinity: {}
 appEnv:
-  servicePort: "8080"
+  servicePort: 8080
   endPoint: "hhttp://localhost:8080"
