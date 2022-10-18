@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   #repository: anandaacr.azurecr.io/ananda-mock-serv-01
-  repository: anandapocacr.azurecr.io/ananda-mock-serv-01
+  repository: anandaacr.azurecr.io/ananda-mock-serv-01
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "4d2de9f56db1316886f90a1d541850593420b8fb"
