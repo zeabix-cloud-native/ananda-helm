@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   #repository: anandaacr.azurecr.io/ananda-mock-serv-01
-  repository: anandaacr.azurecr.io/ananda-mock-serv-01
+  repository: anandapocacr.azurecr.io/ananda-mock-serv-01
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "690748cd5170f68e6396437d592e3b9170f87d0a"
@@ -44,14 +44,19 @@ ingress:
     nginx.ingress.kubernetes.io/auth-tls-secret: "app/ingress-secret-self"
     nginx.ingress.kubernetes.io/whitelist-source-range: "20.198.210.67/32"
   hosts:
-    - host: ananda-demo2-api.z-unified.com
+    - host: ananda-api2.z-unified.com
       paths:
         - path: /
           pathType: ImplementationSpecific
   tls:
     - secretName: ingress-secret-dev
       hosts:
+<<<<<<< HEAD
         - ananda-demo2-api.z-unified.com
+=======
+        - ananda-api2.z-unified.com
+
+>>>>>>> Init develop sub2
 resources:
   limits:
     cpu: 100m
