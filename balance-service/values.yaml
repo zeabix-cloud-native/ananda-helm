@@ -51,12 +51,8 @@ ingress:
   tls:
     - secretName: ingress-secret-dev
       hosts:
-<<<<<<< HEAD
-        - ananda-demo2-api.z-unified.com
-=======
         - ananda-api2.z-unified.com
 
->>>>>>> Init develop sub2
 resources:
   limits:
     cpu: 100m
