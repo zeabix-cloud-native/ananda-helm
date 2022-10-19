@@ -7,7 +7,7 @@ image:
   repository: anandapocacr.azurecr.io/ananda-mock-serv-01
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "690748cd5170f68e6396437d592e3b9170f87d0a"
+  tag: "f16bc207e9c9cd10bfaf8bba22a6355134f31f6e"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
@@ -52,7 +52,6 @@ ingress:
     - secretName: ingress-secret-dev
       hosts:
         - ananda-api.z-unified.com
-
 resources:
   limits:
     cpu: 100m
