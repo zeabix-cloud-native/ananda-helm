@@ -42,16 +42,16 @@ ingress:
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
     nginx.ingress.kubernetes.io/auth-tls-verify-client: "on"
     nginx.ingress.kubernetes.io/auth-tls-secret: "app/ingress-secret-self"
-    nginx.ingress.kubernetes.io/whitelist-source-range: "20.198.210.67/32"
+    nginx.ingress.kubernetes.io/whitelist-source-range: "20.197.111.130/32"
   hosts:
-    - host: ananda-api2.z-unified.com
+    - host: ananda-rep-api2.z-unified.com
       paths:
         - path: /
           pathType: ImplementationSpecific
   tls:
     - secretName: ingress-secret-dev
       hosts:
-        - ananda-api2.z-unified.com
+        - ananda-rep-api2.z-unified.com
 resources:
   limits:
     cpu: 100m
