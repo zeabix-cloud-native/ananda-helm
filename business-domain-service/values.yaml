@@ -70,3 +70,4 @@ tolerations: []
 affinity: {}
 appEnv:
   endPoint: "https://anandapoc-apim.azure-api.net/rep"
+  subscriptionKey: ""
