@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  conn: bWFyaWFkYmFkbWluQGFuYW5kYXBvYy1teXNxbHNlcnZlcjpUcmluLm5ldFNAdGNwKGFuYW5kYXBvYy1teXNxbHNlcnZlci5teXNxbC5kYXRhYmFzZS5henVyZS5jb20pL3Byb2ZpbGVkYg==
+kind: Secret
+metadata:
+  creationTimestamp: "2022-10-16T21:18:52Z"
+  name: db-conn-str
+  resourceVersion: "228120"
+  uid: 60814678-21d1-4064-8283-5e78e9213f29
+type: Opaque
