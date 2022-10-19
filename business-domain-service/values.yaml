@@ -42,7 +42,7 @@ ingress:
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
     nginx.ingress.kubernetes.io/auth-tls-verify-client: "on"
     nginx.ingress.kubernetes.io/auth-tls-secret: "app/ingress-secret-self"
-    nginx.ingress.kubernetes.io/whitelist-source-range: "20.198.210.67/32"
+    nginx.ingress.kubernetes.io/whitelist-source-range: "20.197.111.130/32"
   hosts:
     - host: ananda-api.z-unified.com
       paths:
