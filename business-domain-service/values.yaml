@@ -44,14 +44,14 @@ ingress:
     nginx.ingress.kubernetes.io/auth-tls-secret: "app/ingress-secret-self"
     nginx.ingress.kubernetes.io/whitelist-source-range: "20.198.210.67/32"
   hosts:
-    - host: ananda-demo-api.z-unified.com
+    - host: ananda-mock-api.z-unified.com
       paths:
         - path: /
           pathType: ImplementationSpecific
   tls:
     - secretName: ingress-secret-dev
       hosts:
-        - ananda-demo-api.z-unified.com
+        - ananda-mock-api.z-unified.com
 resources:
   limits:
     cpu: 100m
