@@ -70,3 +70,4 @@ tolerations: []
 affinity: {}
 appEnv:
   endPoint: "https://ananda-apim.azure-api.net/mock2"
+  subscriptionKey: ""
