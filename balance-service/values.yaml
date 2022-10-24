@@ -7,7 +7,7 @@ image:
   repository: anandapocacr.azurecr.io/ananda-mock-serv-01
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "12a7d5f53c0bec774af582bf91f7d7badda0ca05"
+  tag: "bdb6a6d95eafc3df87dcf449ff3db29c064f3478"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
